@@ -1,6 +1,5 @@
 const express = require('express');
 const fs = require('fs');
-//const path = require('path');
 const app = express();
 const PORT = 3000;
 
@@ -17,5 +16,5 @@ app.get('/api/v1/tours', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Listening on port: ${PORT}...`);
+  console.log(`Server running on port: ${PORT}...`);
 });
